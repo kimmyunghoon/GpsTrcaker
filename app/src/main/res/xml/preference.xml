@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="트랙 저장" >
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="useUserTrack"
+        android:summaryOff="트랙 계정 저장 OFF"
+        android:summaryOn="트랙 계정 저장 ON"
+        android:title="트랙 계정 연동 저장" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="어플 정보" >
+
+        <Preference
+            android:summary="Version : 1.0.0
+            made by 명훈"
+            android:title="개발 정보" >
+
+        </Preference>
+        <Preference
+            android:summary="에러 및 건의사항"
+            android:title="메일 보내기" >
+            <intent
+                android:action="android.intent.action.SENDTO"
+                android:data="mailto:kl951995@naver.com" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

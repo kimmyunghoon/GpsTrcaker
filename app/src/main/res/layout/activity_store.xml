@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/middleSurface"
+    tools:context=".Gpsinfo">
+
+
+    <TextView
+        android:id="@+id/tv_StartAdressSt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@+id/tv_timeSt"
+        android:background="@color/tx_background"
+        android:gravity="center_vertical"
+        android:text="출발 주소 : "
+        android:textColor="#ffffff"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tv_EndAdressSt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_StartAdressSt"
+        android:background="@color/tx_background"
+        android:gravity="center_vertical"
+        android:text="도착 주소 : "
+        android:textColor="#ffffff"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tv_timeSt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_titleSt"
+        android:background="#3DB7CC"
+        android:gravity="center_vertical"
+        android:text="실행시간 00:00"
+        android:textColor="#ffffff"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tv_daySt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tv_timeSt"
+        android:background="#3DB7CC"
+        android:gravity="center_vertical|right"
+        android:text="0000년 00월 00일 00시 00분"
+        android:textColor="#ffffff"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tv_titleSt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#3DB7CC"
+        android:gravity="center"
+        android:text="Track Recording"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <fragment
+        android:id="@+id/map2"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_EndAdressSt" />
+
+
+</RelativeLayout>

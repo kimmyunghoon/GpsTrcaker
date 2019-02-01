@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "150088013548",
+    "firebase_url": "https://gpstrackerapp-229914.firebaseio.com",
+    "project_id": "gpstrackerapp-229914",
+    "storage_bucket": "gpstrackerapp-229914.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150088013548:android:59e82baa359f0b66",
+        "android_client_info": {
+          "package_name": "com.example.gpsinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150088013548-uqq0so5v6o73hoh4u1tv9pfjboejh7j9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gpsinfo",
+            "certificate_hash": "70aafc4be59a5b8ede8f068c03bdbcbdc760b6ce"
+          }
+        },
+        {
+          "client_id": "150088013548-19urkup5b2c53ktnldqcajc828qgqebk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHlkywBsAZfaD9LT5BTwcOA9ZsHBRtsdY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150088013548-19urkup5b2c53ktnldqcajc828qgqebk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

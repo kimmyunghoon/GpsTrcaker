@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="userOpen">
+
+        <item>자동</item>
+
+        <item>수동</item>
+
+    </string-array>
+
+    <string-array name="userOpen_values">
+
+        <item>1</item>
+
+        <item>0</item>
+
+    </string-array>
+
+
+</resources>
